@@ -1,0 +1,42 @@
+# Ignore build artifacts and logs
+build/
+output/
+*.exe
+*.dll
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+.env
+
+# C/C++ build artifacts and runtime libs (discovered in /Run)
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.a
+*.so
+sfml-*.dll
+Run.exe
+
+fonts/
+graphics/
+music/
+shaders/
+sound/
